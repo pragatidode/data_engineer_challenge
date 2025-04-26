@@ -42,13 +42,11 @@ yml file for two containers alredy added into this repository. Use following com
 
 docker-compose up -d
 
+# Run the Notebook:
+Open etl_pipeline_notebook.ipynb in JupyterLab or Jupyter Notebook and run all cells sequentially.
 
-# Install Python dependencies:
+# If required Install Python dependencies:
 
 pip install -r requirements.txt
 Or install manually: pandas, requests, sqlalchemy, pyodbc, psycopg2
-
-Run the Notebook:
-
-Open etl_pipeline_notebook.ipynb in JupyterLab or Jupyter Notebook and run all cells sequentially.
 
