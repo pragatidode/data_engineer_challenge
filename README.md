@@ -1,6 +1,5 @@
 # data_engineer_challenge
 
-=======
 # Overview:
 
 This Jupyter Notebook provides a full ETL pipeline for a technical data engineering challenge:
@@ -38,11 +37,11 @@ Clone this repository:
 
 git clone https://github.com/pragatidode/data_engineer_challenge.git
 cd data_engineer_challenge
+# Environment setup
+yml file for two containers alredy added into this repository. Use following command to start two containers.
 
-Start PostgreSQL and SQL Server via Docker (notepad docker-compose.yml/nano docker-compose.yml):
 docker-compose up -d
 
-Ensure ports and credentials match what’s used inside the notebook (e.g., PostgreSQL on localhost:5432, SQL Server on localhost:1433).
 
 # Install Python dependencies:
 
@@ -53,4 +52,3 @@ Run the Notebook:
 
 Open etl_pipeline_notebook.ipynb in JupyterLab or Jupyter Notebook and run all cells sequentially.
 
->>>>>>> 3b81d7fd6ba108f27a4de25676e182246fbdc4c0
