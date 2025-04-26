@@ -1,5 +1,5 @@
 # data_engineer_challenge
-<<<<<<< HEAD
+
 =======
 # Overview:
 
